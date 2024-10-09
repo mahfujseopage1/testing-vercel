@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primaryBlue: #1492E6;
+  --primaryDarkBlue: #E7F4FC;
+  --primaryLightBlue: #F2F9FE;
+  --primarySuccess: #b6f5df;
+  --priMaryWhiteBg: #FFFFFF;
+  --primaryExtraDarkSuccess: #1DC9A0;
+  --primaryLightSuccess: #e8f3e7;
+  --primaryDarkSuccess: #48B02C; 
+  --primaryLightDarkBlue: #D8EDFC;
+  --primaryDanger: #FF6666;    
+  --primaryLightDanger: #fd6b6b;
+  --primaryExtraLightDanger: #FBEEF0;
+  --primaryDarkText: #000000;
+  --primaryDarkLightText: #909090;
+  --primaryGrayBg: #D9D9D9;
+  --primaryGrayExtraBg: #BBB;
+  --primaryGrayText: #8A8A8A;
+  --primaryLightGrayText: #B9B9B9;
+  --primaryLightText: #FFFFFF;
+  --primaryLightWhiteBg: #EEE;
+  --borderColor: #C6C6C6;
+  --primaryLightBorder: #E0E9EF;
+  --primaryBorderBlue: #AED5EF;
+  --primaryBorderLightBlue: #CCEBFF;
+  --primaryDarkBorderBlue: #B1E0FF;
+  --primaryBorderSuccess: #14E69A;
+  --primaryBorderLightSuccess: #B9E0AF;
+  --primaryBorderDarkSuccess: #1DC9A0;
+  --borderRadius: 6px;
+  --primaryLightBorderRadius: 4px;
+  --primaryBoxShadow: 6px 12px 80px rgba(0, 0, 0, 0.07);
+  --primaryFont: 'Poppins', sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+
+  min-height: 100vh;
+}
+
+
+iframe {
+  border: 1px solid #e2e8f0;
+}
+
+
+
+
+.no-scrollbar {
+  /* Hide scrollbars for WebKit-based browsers (Chrome, Safari) */
+  overflow: hidden;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in WebKit-based browsers */
+}

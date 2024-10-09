@@ -1,0 +1,134 @@
+.sp1_custom_checkbox_wrapper .ant-checkbox-disabled .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  background-color: var(--primaryGrayExtraBg);
+  border-color: none !important;
+}
+.sp1_custom_checkbox_wrapper .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner {
+  border-color: transparent !important;
+}
+.sp1_custom_checkbox_wrapper .ant-checkbox .ant-checkbox-inner:after {
+  top: 49% !important;
+  inset-inline-start: 30% !important;
+  height: 10px !important;
+}
+/* Primary Checkbox Style */
+.sp1_custom_checkbox_primary .ant-radio-wrapper .ant-radio-inner {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border-color: var(--primaryExtraDarkSuccess);
+}
+
+.sp1_custom_checkbox_primary .ant-checkbox .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-color: var(--primaryBlue);
+  border-radius: var(--primaryLightBorderRadius);
+}
+
+.sp1_custom_checkbox_primary .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background-color: var(--primaryBlue) !important;
+  border-color: var(--primaryBlue) !important;
+}
+/* Secondary Checkbox Style */
+
+.sp1_custom_checkbox_secondary .ant-checkbox .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  border-color: transparent;
+  background-color: var(--primaryGrayBg);
+  border-radius: var(--primaryLightBorderRadius);
+}
+
+.sp1_custom_checkbox_secondary .ant-checkbox-disabled .ant-checkbox-inner:after {
+  border-color: white !important;
+}
+
+
+.sp1_custom_checkbox_secondary .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background-color: var(--primaryDarkSuccess) !important;
+  border-color: var(--primaryDarkSuccess) !important;
+}
+
+/* Ternary checkbox style  */
+
+.sp1_custom_checkbox_ternary .ant-checkbox .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  background-color: var(--primaryGrayBg);
+  border-color: transparent;
+  border-radius: var(--primaryLightBorderRadius);
+}
+
+.sp1_custom_checkbox_ternary .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background-color: var(--primaryDanger) !important;
+  border-color: var(--primaryDanger) !important;
+}
+
+.sp1_custom_checkbox_ternary .ant-checkbox .ant-checkbox-inner:after {
+  top: 30% !important;
+  inset-inline-start: 36% !important;
+  height: 10px !important;
+  content: "\2715" !important;
+  border: none !important;
+  transform: rotate(0deg) scale(1) translate(-31%, -24%) !important;
+  transition: all 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46) 0.1s !important;
+  color: #FFF !important;
+}
+
+
+/* Disabled Checkbox Style */
+
+.sp1_custom_checkbox_disabled .ant-checkbox .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  background-color: var(--primaryGrayBg);
+  border-color: transparent;
+  border-radius: var(--primaryLightBorderRadius);
+}
+.sp1_custom_checkbox_disabled .ant-checkbox-disabled .ant-checkbox-inner {
+  width: 20px;
+  height: 20px;
+  background-color: #BBB;
+  border-color: #BBB;
+}
+.sp1_custom_checkbox_disabled .ant-checkbox-disabled .ant-checkbox-inner:after {
+  border-color: white !important;
+}
+
+.sp1_custom_checkbox_disabled .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner {
+  background-color: var(--primaryDarkSuccess) !important;
+  border-color: var(--primaryDarkSuccess) !important;
+}
+
+.sp1_custom_checkbox_disabled .ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner {
+  border-color: transparent !important;
+}
+
+
+.sp1_custom_checkbox_disabled .ant-checkbox .ant-checkbox-inner:after {
+  top: 49% !important;
+  inset-inline-start: 30% !important;
+  height: 10px !important;
+}
+
+/* Radio type checkbox style */
+
+.sp1_custom_checkbox_radio .ant-radio-wrapper .ant-radio-inner {
+  background-color: transparent;
+  border-color: var(--primaryExtraDarkSuccess);
+  height: 20px;
+  width: 20px;
+}
+.sp1_custom_checkbox_radio .ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  background-color: transparent;
+}
+.sp1_custom_checkbox_radio .ant-radio-wrapper .ant-radio-inner::after {
+  background-color: var(--primaryExtraDarkSuccess);
+  width: 25px !important;
+  height: 25px !important;
+  margin-block-start: -12px !important;
+  margin-inline-start: -12px !important;
+}
